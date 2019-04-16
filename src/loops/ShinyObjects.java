@@ -15,7 +15,7 @@ public class ShinyObjects {
 		// 2. Ask the user how many shiny objects they want
  String so = JOptionPane.showInputDialog("How many shiny objects do you want?");
 int sO = Integer.parseInt(so);
-for (int i = 0; i < sO +1 ; i++) {
+for (int i = 0; i < sO  ; i++) {
 	
 
 		// 1. Call the method below
